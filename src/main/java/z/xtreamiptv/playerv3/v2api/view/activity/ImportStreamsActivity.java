@@ -8,7 +8,7 @@ import android.os.AsyncTask;
 import android.os.Build.VERSION;
 import android.os.Bundle;
 import androidx.core.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.Window;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;

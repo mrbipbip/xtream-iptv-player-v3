@@ -1,7 +1,7 @@
 package z.xtreamiptv.playerv3.v2api.view.utility;
 
 import android.content.Context;
-import androidx.core.view.ViewPager;
+import androidx.viewpager.widget.ViewPager;
 import android.util.AttributeSet;
 import android.view.KeyEvent;
 import android.view.MotionEvent;

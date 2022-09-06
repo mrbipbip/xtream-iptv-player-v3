@@ -21,7 +21,7 @@
 
 -keep class org.xmlpull.** { *; }
 
--keep class android.support.v7.widget.SearchView { *; }
+-keep class androidx.appcompat.widget.SearchView { *; }
 
 -keep class javax.xml.** { *; }
 -keep class com.google.** { *; }
@@ -44,8 +44,8 @@
 -keep class com.bumptech.** { *; }
 -keep class de.hdodenhof.** { *; }
 
--keep class .**.ffmpeg.** { *; }
--keep class .**.avcodec.** { *; }
+-keep class ffmpeg.** { *; }
+-keep class avcodec.** { *; }
 -keep class tv.** { *; }
 -keep class com.google.android.exoplayer2.** { *; }
 
@@ -57,7 +57,7 @@
 # Platform calls Class.forName on types which do not exist on Android to determine platform.
 -dontnote retrofit2.Platform
 # Platform used when running on Java 8 VMs. Will not be used at runtime.
--dontwarn retrofit2.Platform$Java8
+-dontwarn retrofit2.PlatformJava8
 # Retain generic type information for use by reflection by converters and adapters.
 -keepattributes Signature
 # Retain declared checked exceptions for use by a Proxy instance.

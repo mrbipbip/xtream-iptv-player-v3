@@ -108,6 +108,11 @@ final class EventLogger implements EventListener, MetadataOutput, AudioRendererE
         Log.e(TAG, "playerFailed [" + getSessionTimeString() + "]", e);
     }
 
+    @Override
+    public void onTimelineChanged(Timeline timeline, Object manifest, int reason) {
+
+    }
+
     public void onTracksChanged(TrackGroupArray ignored, TrackSelectionArray trackSelections) {
         MappedTrackInfo mappedTrackInfo = this.trackSelector.getCurrentMappedTrackInfo();
         if (mappedTrackInfo == null) {
@@ -265,6 +270,11 @@ final class EventLogger implements EventListener, MetadataOutput, AudioRendererE
 
     public void onAdLoadError(IOException error) {
         printInternalError("adLoadError", error);
+    }
+
+    @Override
+    public void onInternalAdLoadError(RuntimeException error) {
+
     }
 
     public void onAdClicked() {

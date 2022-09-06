@@ -12,7 +12,7 @@ import android.net.Uri;
 import android.os.Build.VERSION;
 import android.os.Bundle;
 import androidx.core.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.Window;
 import com.google.android.exoplayer2.util.MimeTypes;
 import z.xtreamiptv.playerv3.R;

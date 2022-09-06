@@ -2,7 +2,6 @@ package z.xtreamiptv.playerv3.v2api.view.exoplayer2;
 
 import android.text.TextUtils;
 import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.C;
 import com.google.android.exoplayer2.Format;
 import com.google.android.exoplayer2.drm.UnsupportedDrmException;
 import com.google.android.exoplayer2.util.MimeTypes;

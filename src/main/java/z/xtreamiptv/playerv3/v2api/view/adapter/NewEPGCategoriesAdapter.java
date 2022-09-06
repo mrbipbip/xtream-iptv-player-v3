@@ -1,9 +1,9 @@
 package z.xtreamiptv.playerv3.v2api.view.adapter;
 
 import android.content.Context;
-import androidx.core.app.Fragment;
-import androidx.core.app.FragmentManager;
-import androidx.core.app.FragmentPagerAdapter;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
 import android.view.ViewGroup;
 import z.xtreamiptv.playerv3.model.LiveStreamCategoryIdDBModel;
 import z.xtreamiptv.playerv3.v2api.view.fragment.NewEPGFragment;

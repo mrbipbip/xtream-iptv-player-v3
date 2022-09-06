@@ -1,7 +1,7 @@
 package z.xtreamiptv.playerv3.miscelleneious;
 
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.RecyclerView.ViewHolder;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView.ViewHolder;
 import android.view.View;
 import z.xtreamiptv.playerv3.R;
 

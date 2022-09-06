@@ -1,8 +1,8 @@
 package z.xtreamiptv.playerv3.miscelleneious.pagination;
 
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.RecyclerView.OnScrollListener;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView.OnScrollListener;
 
 public abstract class PaginationLiveScrollListener extends OnScrollListener {
     LinearLayoutManager layoutManager;

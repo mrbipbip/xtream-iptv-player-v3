@@ -1,7 +1,7 @@
 package z.xtreamiptv.playerv3.v2api.view.utility;
 
 import android.content.Context;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.animation.RotateAnimation;
 import android.widget.ImageView;

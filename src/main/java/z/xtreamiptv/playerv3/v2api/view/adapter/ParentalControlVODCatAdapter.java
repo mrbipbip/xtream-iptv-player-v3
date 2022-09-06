@@ -6,9 +6,10 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.graphics.Typeface;
 import android.os.Build.VERSION;
-import android.support.annotation.CallSuper;
-import android.support.annotation.UiThread;
-import android.support.v7.widget.RecyclerView.Adapter;
+import androidx.annotation.CallSuper;
+import androidx.annotation.UiThread;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView.Adapter;
 import android.text.TextUtils;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -45,7 +46,7 @@ public class ParentalControlVODCatAdapter extends Adapter<ParentalControlVODCatA
     private String username = "";
     private ViewHolder vh;
 
-    public class ViewHolder extends android.support.v7.widget.RecyclerView.ViewHolder {
+    public class ViewHolder extends RecyclerView.ViewHolder {
         @BindView(R.id.tv_category_name)
         TextView categoryNameTV;
         @BindView(R.id.rl_category)

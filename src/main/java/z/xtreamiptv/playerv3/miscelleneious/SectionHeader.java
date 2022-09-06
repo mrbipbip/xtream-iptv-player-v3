@@ -1,6 +1,6 @@
 package z.xtreamiptv.playerv3.miscelleneious;
 
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import com.intrusoft.sectionedrecyclerview.Section;
 import z.xtreamiptv.playerv3.model.LiveStreamsDBModel;
 import z.xtreamiptv.playerv3.view.adapter.SubCategoriesChildAdapter;

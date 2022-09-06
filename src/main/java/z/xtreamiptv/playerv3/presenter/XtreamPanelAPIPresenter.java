@@ -1,7 +1,7 @@
 package z.xtreamiptv.playerv3.presenter;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import z.xtreamiptv.playerv3.R;
 import z.xtreamiptv.playerv3.miscelleneious.common.AppConst;
 import z.xtreamiptv.playerv3.miscelleneious.common.Utils;
