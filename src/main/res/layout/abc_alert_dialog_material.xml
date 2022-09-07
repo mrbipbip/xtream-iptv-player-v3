@@ -6,9 +6,9 @@
         <View n1:layout_gravity="top" n1:id="@id/scrollIndicatorUp" n1:background="?colorControlHighlight" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
         <androidx.core.widget.NestedScrollView n1:id="@id/scrollView" n1:clipToPadding="false" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
             <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
-                <androidx.core.widget.Space n1:id="@id/textSpacerNoTitle" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="@dimen/abc_dialog_padding_top_material" />
+                <androidx.legacy.widget.Space n1:id="@id/textSpacerNoTitle" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="@dimen/abc_dialog_padding_top_material" />
                 <TextView n1:id="@android:id/message" n1:paddingLeft="?dialogPreferredPadding" n1:paddingRight="?dialogPreferredPadding" n1:layout_width="fill_parent" n1:layout_height="wrap_content" style="@style/TextAppearance.AppCompat.Subhead" />
-                <androidx.core.widget.Space n1:id="@id/textSpacerNoButtons" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="@dimen/abc_dialog_padding_top_material" />
+                <androidx.legacy.widget.Space n1:id="@id/textSpacerNoButtons" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="@dimen/abc_dialog_padding_top_material" />
             </LinearLayout>
         </androidx.core.widget.NestedScrollView>
         <View n1:layout_gravity="bottom" n1:id="@id/scrollIndicatorDown" n1:background="?colorControlHighlight" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />

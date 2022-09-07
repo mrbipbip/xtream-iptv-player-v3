@@ -581,7 +581,7 @@ public class Utils {
             return ((Integer.parseInt(epgShift.split("\\+")[1]) * 60) * 60) * 1000;
         }
         if (epgShift.contains("-")) {
-            return (((-Integer.parseInt(epgShift.split("\\-")[1])) * 60) * 60) * 1000;
+            return (((-Integer.parseInt(epgShift.split("-")[1])) * 60) * 60) * 1000;
         }
         return 0;
     }
