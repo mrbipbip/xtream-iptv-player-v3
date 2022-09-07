@@ -9,7 +9,7 @@
     </LinearLayout>
     <FrameLayout n1:id="@id/content_container" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_above="@id/navigator_container" n1:layout_below="@id/page_container" n1:layout_centerHorizontal="true" />
     <FrameLayout n1:id="@id/navigator_container" style="?onboardingNavigatorContainerStyle">
-        <android.support.v17.leanback.widget.PagingIndicator n1:id="@id/page_indicator" n1:visibility="gone" style="?onboardingPageIndicatorStyle" />
+        <androidx.leanback.widget.PagingIndicator n1:id="@id/page_indicator" n1:visibility="gone" style="?onboardingPageIndicatorStyle" />
         <Button n1:id="@id/button_start" n1:visibility="gone" style="?onboardingStartButtonStyle" />
     </FrameLayout>
     <FrameLayout n1:id="@id/foreground_container" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />

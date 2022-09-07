@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.AlertDialogLayout n1:gravity="start|center|top" n1:orientation="vertical" n1:id="@id/parentPanel" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+<androidx.appcompat.widget.AlertDialogLayout n1:gravity="start|center|top" n1:orientation="vertical" n1:id="@id/parentPanel" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
   xmlns:n1="http://schemas.android.com/apk/res/android">
     <include layout="@layout/abc_alert_dialog_title_material" />
     <FrameLayout n1:id="@id/contentPanel" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="48.0dip">
@@ -17,4 +17,4 @@
         <FrameLayout n1:id="@id/custom" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
     </FrameLayout>
     <include n1:layout_width="fill_parent" n1:layout_height="wrap_content" layout="@layout/abc_alert_dialog_button_bar_material" />
-</android.support.v7.widget.AlertDialogLayout>
+</androidx.appcompat.widget.AlertDialogLayout>

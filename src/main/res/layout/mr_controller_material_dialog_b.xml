@@ -15,7 +15,7 @@
                     <View n1:id="@id/mr_control_divider" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="8.0dip" />
                     <include n1:id="@id/mr_volume_control" layout="@layout/mr_volume_control" />
                 </LinearLayout>
-                <android.support.v7.app.OverlayListView n1:theme="?mediaRouteControlPanelThemeOverlay" n1:scrollbarStyle="outsideOverlay" n1:id="@id/mr_volume_group_list" n1:paddingTop="@dimen/mr_controller_volume_group_list_padding_top" n1:visibility="gone" n1:clipToPadding="false" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:splitMotionEvents="false" />
+                <androidx.mediarouter.app.OverlayListView n1:theme="?mediaRouteControlPanelThemeOverlay" n1:scrollbarStyle="outsideOverlay" n1:id="@id/mr_volume_group_list" n1:paddingTop="@dimen/mr_controller_volume_group_list_padding_top" n1:visibility="gone" n1:clipToPadding="false" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:splitMotionEvents="false" />
             </LinearLayout>
         </FrameLayout>
         <include layout="@layout/abc_alert_dialog_button_bar_material" />
