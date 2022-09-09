@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xmlversion="1.0" encoding="utf-8"?>
 <androidx.appcompat.view.menu.ListMenuItemView n1:layout_width="fill_parent" n1:layout_height="?listPreferredItemHeightSmall"
   xmlns:n1="http://schemas.android.com/apk/res/android">
     <RelativeLayout n1:layout_gravity="center_vertical" n1:duplicateParentState="true" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_marginLeft="?listPreferredItemPaddingLeft" n1:layout_marginRight="?listPreferredItemPaddingRight" n1:layout_weight="1.0">
