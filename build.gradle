@@ -5,9 +5,9 @@ buildscript {
         maven { url "https://jitpack.io" }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.2.2'
+        classpath 'com.android.tools.build:gradle:8.1.1'
         classpath 'com.jakewharton:butterknife-gradle-plugin:9.0.0-rc2'
-        classpath "io.realm:realm-gradle-plugin:10.11.0"
+        classpath "io.realm:realm-gradle-plugin:10.16.1"
     }
     ext {
         supportLibVersion = "1.0.2"
@@ -24,8 +24,7 @@ repositories {
 }
 
 android {
-    compileSdk 32
-    buildToolsVersion '30.0.3'
+    compileSdkVersion 32
 
     defaultConfig {
         applicationId 'z.xtreamiptv.playerv3'
@@ -55,10 +54,11 @@ android {
             jniLibs.srcDirs = [ "src/main/lib" ]
         }
     }
-
-    lintOptions {
+    namespace 'z.xtreamiptv.playerv3'
+    lint {
         abortOnError false
     }
+
 }
 
 dependencies {
@@ -87,7 +87,7 @@ dependencies {
     implementation group: 'com.google.android.gms', name: 'play-services-cast', version: '21.1.0'
     implementation group: 'com.google.android.gms', name: 'play-services-cast-framework', version: '21.1.0'
     implementation group: 'com.google.firebase', name: 'firebase-auth', version: '21.0.8'
-    implementation group: 'com.google.android.exoplayer', name: 'exoplayer', version: '2.18.5'
+    implementation group: 'com.google.android.exoplayer', name: 'exoplayer', version: '2.16.0'
 
     // retrofit
     implementation group: 'com.squareup.retrofit2', name: 'retrofit', version: '2.4.0'
