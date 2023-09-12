@@ -3,9 +3,9 @@
   xmlns:n1="http://schemas.android.com/apk/res/android">
     <androidx.drawerlayout.widget.DrawerLayout n1:id="@id/drawer_layout" n1:fitsSystemWindows="true" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
         <com.google.android.material.appbar.AppBarLayout n1:id="@id/appbar_toolbar" n1:fitsSystemWindows="true" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
-            <androidx.appcompat.widget.Toolbar n1:id="@id/toolbar" n1:fitsSystemWindows="true" n1:layout_width="fill_parent" n1:layout_height="35.0dip" n1:minHeight="?attr/actionBarSizeStyles" n1:layout_centerInParent="true" n2:popupTheme="@style/ThemeOverlay.AppCompat.Light" xmlns:n2="http://schemas.android.com/apk/res-auto">
+            <androidx.appcompat.widget.Toolbar n1:id="@id/toolbar" n1:fitsSystemWindows="true" n1:layout_width="fill_parent" n1:layout_height="35.0dip" n1:minHeight="?actionBarSize" n1:layout_centerInParent="true" n2:popupTheme="@style/ThemeOverlay.AppCompat.Light" xmlns:n2="http://schemas.android.com/apk/res-auto">
                 <RelativeLayout n1:focusable="true" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
-                    <TextView n1:textSize="23.0sp" n1:layout_gravity="center_horizontal" n1:id="@id/tv_header_title" n1:focusable="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/app_name" n1:layout_centerHorizontal="true" n1:layout_centerVertical="true" n1:fontFamily="@string/font_family_medium" style="bold" />
+                    <TextView n1:textSize="23.0sp" n1:layout_gravity="center_horizontal" n1:id="@id/tv_header_title" n1:focusable="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/app_name" n1:layout_centerHorizontal="true" n1:layout_centerVertical="true"  style="bold" />
                 </RelativeLayout>
             </androidx.appcompat.widget.Toolbar>
             <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_below="@id/appbar_toolbar">

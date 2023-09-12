@@ -11,18 +11,6 @@
     <string name="abc_activitychooserview_choose_application">Choose an app</string>
     <string name="abc_capital_off">OFF</string>
     <string name="abc_capital_on">ON</string>
-    <string name="abc_font_family_body_1_material">sans-serif</string>
-    <string name="abc_font_family_body_2_material">sans-serif-medium</string>
-    <string name="abc_font_family_button_material">sans-serif-medium</string>
-    <string name="abc_font_family_caption_material">sans-serif</string>
-    <string name="abc_font_family_display_1_material">sans-serif</string>
-    <string name="abc_font_family_display_2_material">sans-serif</string>
-    <string name="abc_font_family_display_3_material">sans-serif</string>
-    <string name="abc_font_family_display_4_material">sans-serif-light</string>
-    <string name="abc_font_family_headline_material">sans-serif</string>
-    <string name="abc_font_family_menu_material">sans-serif</string>
-    <string name="abc_font_family_subhead_material">sans-serif</string>
-    <string name="abc_font_family_title_material">sans-serif-medium</string>
     <string name="abc_search_hint">Search…</string>
     <string name="abc_searchview_description_clear">Clear query</string>
     <string name="abc_searchview_description_query">Search query</string>
@@ -180,18 +168,10 @@
     <string name="exo_player">Built-in Player 2</string>
     <string name="favourite">FAVOURITE</string>
     <string name="favourites">FAVOURITES</string>
-    <string name="font_family_black">sans-serif-black</string>
-    <string name="font_family_bold">sans-serif-bold</string>
-    <string name="font_family_condensed">sans-serif-condensed</string>
-    <string name="font_family_light">sans-serif-light</string>
-    <string name="font_family_medium">sans-serif-medium</string>
-    <string name="font_family_regular">sans-serif</string>
-    <string name="font_family_thin">sans-serif-thin</string>
     <string name="giraffe_player_url_empty">Please specify the address of the video playback</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hls_m3u8">HLS (.m3u8)</string>
     <string name="ijk_player">Built-in Player 1 ( Default )</string>
-    <string name="ijkplayer_dummy" />
     <string name="ima_not_loaded">Playing sample without ads, as the IMA extension was not loaded</string>
     <string name="importign_all_channels">Loading Channels and VOD</string>
     <string name="importign_all_channels_series">Loading Channels, VOD and Series</string>
@@ -214,18 +194,6 @@
     <string name="lb_date_separator">/</string>
     <string name="lb_guidedaction_continue_title">Continue</string>
     <string name="lb_guidedaction_finish_title">Finish</string>
-    <item type="string" name="lb_guidedactions_item_disabled_chevron_alpha">0.5</item>
-    <item type="string" name="lb_guidedactions_item_disabled_description_text_alpha">0.25</item>
-    <item type="string" name="lb_guidedactions_item_disabled_text_alpha">0.25</item>
-    <item type="string" name="lb_guidedactions_item_enabled_chevron_alpha">1.0</item>
-    <item type="string" name="lb_guidedactions_item_unselected_description_text_alpha">0.5</item>
-    <item type="string" name="lb_guidedactions_item_unselected_text_alpha">1.0</item>
-    <item type="string" name="lb_guidedactions_width_weight">0.71428573</item>
-    <item type="string" name="lb_guidedactions_width_weight_two_panels">1.1917808</item>
-    <item type="string" name="lb_guidedbuttonactions_width_weight">0.45</item>
-    <item type="string" name="lb_guidedstep_height_weight">2.0</item>
-    <item type="string" name="lb_guidedstep_height_weight_translucent">1.0</item>
-    <item type="string" name="lb_guidedstep_keyline">40.0</item>
     <string name="lb_media_player_error">MediaPlayer error code %1$d extra %2$d</string>
     <string name="lb_navigation_menu_contentDescription">Navigation menu</string>
     <string name="lb_onboarding_accessibility_next">Next</string>
@@ -351,10 +319,6 @@
     <string name="password">Password</string>
     <string name="password_toggle_content_description">Toggle password visibility</string>
     <string name="password_updated">Password Updated Successfully !</string>
-    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
-    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
-    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
-    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
     <string name="play_again">Play Again</string>
     <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
     <string name="player_setting">Player Selection</string>
@@ -457,4 +421,6 @@
     <string name="vod">VIDEO ON DEMAND</string>
     <string name="vod_categories">VOD CATEGORIES</string>
     <string name="yes">Yes</string>
+    <string name="categories">CATEGORIES</string>
+    <string name="confirm_proceed">Voulez-vous poursuivre ?</string>
 </resources>

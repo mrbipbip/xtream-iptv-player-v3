@@ -2,7 +2,7 @@
 <androidx.coordinatorlayout.widget.CoordinatorLayout n1:fitsSystemWindows="true" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
   xmlns:n1="http://schemas.android.com/apk/res/android">
     <com.google.android.material.appbar.AppBarLayout n1:theme="@style/AppTheme.AppBarOverlay" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
-        <androidx.appcompat.widget.Toolbar n1:id="@id/toolbar" n1:background="?colorPrimary" n1:layout_width="fill_parent" n1:layout_height="?attr/actionBarSizeStyles" n2:popupTheme="@style/AppTheme.PopupOverlay" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <androidx.appcompat.widget.Toolbar n1:id="@id/toolbar" n1:background="?colorPrimary" n1:layout_width="fill_parent" n1:layout_height="?actionBarSize" n2:popupTheme="@style/AppTheme.PopupOverlay" xmlns:n2="http://schemas.android.com/apk/res-auto" />
     </com.google.android.material.appbar.AppBarLayout>
     <include layout="@layout/content_drawer" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

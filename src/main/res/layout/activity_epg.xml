@@ -4,7 +4,7 @@
     <androidx.drawerlayout.widget.DrawerLayout n1:id="@id/drawer_layout" n1:fitsSystemWindows="true" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
         <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent">
             <com.google.android.material.appbar.AppBarLayout n1:id="@id/appbar_toolbar" n1:fitsSystemWindows="true" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
-                <androidx.appcompat.widget.Toolbar n1:id="@id/toolbar" n1:fitsSystemWindows="true" n1:layout_width="fill_parent" n1:layout_height="90.0dip" n1:minHeight="?attr/actionBarSizeStyles" n1:layout_centerInParent="true" n2:popupTheme="@style/ThemeOverlay.AppCompat.Light" xmlns:n2="http://schemas.android.com/apk/res-auto">
+                <androidx.appcompat.widget.Toolbar n1:id="@id/toolbar" n1:fitsSystemWindows="true" n1:layout_width="fill_parent" n1:layout_height="90.0dip" n1:minHeight="?actionBarSize" n1:layout_centerInParent="true" n2:popupTheme="@style/ThemeOverlay.AppCompat.Light" xmlns:n2="http://schemas.android.com/apk/res-auto">
                     <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent">
                         <ImageView n1:layout_gravity="center_horizontal" n1:id="@id/tv_header_title" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dip" n1:src="@drawable/logo_home" n1:layout_centerHorizontal="true" />
                     </RelativeLayout>

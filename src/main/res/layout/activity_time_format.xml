@@ -3,13 +3,13 @@
   xmlns:n1="http://schemas.android.com/apk/res/android">
     <androidx.drawerlayout.widget.DrawerLayout n1:id="@id/drawer_layout" n1:fitsSystemWindows="true" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
         <com.google.android.material.appbar.AppBarLayout n1:id="@id/appbar_toolbar" n1:fitsSystemWindows="true" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
-            <androidx.appcompat.widget.Toolbar n1:id="@id/toolbar" n1:paddingTop="10.0dip" n1:fitsSystemWindows="true" n1:layout_width="fill_parent" n1:layout_height="90.0dip" n1:minHeight="?attr/actionBarSizeStyles" n1:layout_centerInParent="true" n2:popupTheme="@style/ThemeOverlay.AppCompat.Light" xmlns:n2="http://schemas.android.com/apk/res-auto">
+            <androidx.appcompat.widget.Toolbar n1:id="@id/toolbar" n1:paddingTop="10.0dip" n1:fitsSystemWindows="true" n1:layout_width="fill_parent" n1:layout_height="90.0dip" n1:minHeight="?actionBarSize" n1:layout_centerInParent="true" n2:popupTheme="@style/ThemeOverlay.AppCompat.Light" xmlns:n2="http://schemas.android.com/apk/res-auto">
                 <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent">
                     <ImageView n1:layout_gravity="center_horizontal" n1:id="@id/tv_header_title" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="5.0dip" n1:layout_marginBottom="5.0dip" n1:src="@drawable/logo_home" n1:layout_centerHorizontal="true" />
                 </RelativeLayout>
             </androidx.appcompat.widget.Toolbar>
             <RelativeLayout n1:id="@id/rl_settings" n1:background="@color/colorAccent" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
-                <TextView n1:textSize="16.0dip" n1:textColor="@color/white" n1:id="@id/tv_settings" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dip" n1:layout_marginBottom="12.0dip" n1:text="@string/select_your_time_format" n1:layout_centerHorizontal="true" n1:fontFamily="@string/font_family_bold" />
+                <TextView n1:textSize="16.0dip" n1:textColor="@color/white" n1:id="@id/tv_settings" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dip" n1:layout_marginBottom="12.0dip" n1:text="@string/select_your_time_format" n1:layout_centerHorizontal="true"  />
             </RelativeLayout>
             <ScrollView n1:layout_width="fill_parent" n1:layout_height="fill_parent">
                 <RelativeLayout n1:background="@color/light_gray" n1:layout_width="fill_parent" n1:layout_height="fill_parent">

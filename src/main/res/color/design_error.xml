@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector>
-    <item n1:state_enabled="false" n1:color="?android:textColorTertiary"
-      xmlns:n1="http://schemas.android.com/apk/res/android" />
-    <item n2:color="?textColorError"
-      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item xmlns:n1="http://schemas.android.com/apk/res/android" n1:color="?android:textColorTertiary" n1:state_enabled="false" />
+    <item xmlns:n2="http://schemas.android.com/apk/res/android" n2:color="@color/error_color_material" />
 </selector>

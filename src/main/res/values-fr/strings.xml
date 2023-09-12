@@ -402,4 +402,25 @@
     <string name="yes">Oui</string>
     <string name="categories">CATEGORIES</string>
     <string name="confirm_proceed">Voulez-vous poursuivre ?</string>
+    <string name="app_name">xtream-iptv-player-v3</string>
+    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>
+    <string name="cast_invalid_stream_duration_text">--:--</string>
+    <string name="cast_invalid_stream_position_text">--:--</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
+    <string name="confirm_procees">Do you want to proceed ?</string>
+    <string name="enter_xtream_version">Please enter your xtream version</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="importign_all_channels_series">Loading Channels, VOD and Series</string>
+    <string name="live_categories">LIVE CATEGORIES</string>
+    <string name="load_channels_vod_series">Refresh Channels, VOD and Series</string>
+    <string name="menu_series">Series</string>
+    <string name="password_toggle_content_description">Toggle password visibility</string>
+    <string name="refreshing_all_channels_series">Refreshing Channels, VOD and Series</string>
+    <string name="server_upgrade">Sorry for inconvenience. Please upgrade your panel server to 2.8</string>
+    <string name="setting_save_already">Setting Already Saved!</string>
+    <string name="update_livestreams_vod_series_success">Channels,VOD and Series Updated Successfully!</string>
+    <string name="v7_preference_off">OFF</string>
+    <string name="v7_preference_on">ON</string>
+    <string name="vod_categories">VOD CATEGORIES</string>
 </resources>
